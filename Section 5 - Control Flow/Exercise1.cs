@@ -67,7 +67,7 @@ namespace Section_5___Control_Flow
             */
 
             //------------------------------------------------------------------------------------------------------
-            
+
             //Exercise 1.3
             // Write a program and ask the user to enter the width and height of an image.
             // Then tell if the image is landscape or portrait.
@@ -93,6 +93,50 @@ namespace Section_5___Control_Flow
             else
             {
                 Console.WriteLine("Your image is a square, it is neither landscape nor portrait.");
+            }
+            */
+
+            //--------------------------------------------------------------------------------------------------------
+
+            // Exercise 1.4
+            // Write a program that prompts the user to enter the speed limit.
+            // Once set, the program asks for the speed of a car. 
+            // If the user enters a value less that the speed limit, program should display "ok".
+            // If the value is above the speed limit, the program should calculate the number of demerit points.
+            // For every 5km/hr above the speed limit, 1 demerit point is incurred and displayed.
+            // If demerit point exceeds 12, program should display license suspended.
+
+            /*
+            int speedLimit;
+            int carSpeed;
+            int speedDiff;
+            int deMerit;
+
+            Console.WriteLine("Please enter the speed limit: ");
+            speedLimit = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter the speed of your car: ");
+            carSpeed = Convert.ToInt32(Console.ReadLine());
+
+
+            if (carSpeed > speedLimit)
+            {
+                speedDiff = carSpeed - speedLimit;
+                deMerit = speedDiff / 5;
+
+                if (deMerit > 11)
+                {
+                    Console.WriteLine("You were travelling at a whopping {0}, which is {1} over the speed limit!",carSpeed, speedDiff);
+                    Console.WriteLine("You have been given {0} demerits, and your license has been suspended.",deMerit);
+                }
+                else
+                {
+                    Console.WriteLine("You were travelling at a whopping {0}, which is {1} over the speed limit!", carSpeed, speedDiff);
+                    Console.WriteLine("You have been given {0} demerits.", deMerit);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Your speed is okay! Good job citizen.");
             }
             */
         }   
