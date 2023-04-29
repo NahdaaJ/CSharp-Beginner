@@ -155,6 +155,7 @@ namespace Section_6___Arrays_and_Lists
             // Write a program and ask the user to supply a list of comma separated numbers.
             // If the list is empty or includes less than 5 numbers, display "Invalid List" and ask the user to retry.
             // Otherwise, display the 3 smallest numbers in the list.
+            /*
             string[] userList;
             int[] userNumbers;
 
@@ -199,13 +200,7 @@ namespace Section_6___Arrays_and_Lists
                 Console.Write("{0} ", isDistinct[i]);
             }
             Console.WriteLine();
-
-
-
-
-
-
-
+            */
         }
     }
 }
