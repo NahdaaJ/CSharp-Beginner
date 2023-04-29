@@ -1,0 +1,15 @@
+C:\Users\Nahdaa\Documents\C# Beginner\Section 6 - Arrays and Lists\bin\Debug\net6.0\Section 6 - Arrays and Lists.exe
+C:\Users\Nahdaa\Documents\C# Beginner\Section 6 - Arrays and Lists\bin\Debug\net6.0\Section 6 - Arrays and Lists.deps.json
+C:\Users\Nahdaa\Documents\C# Beginner\Section 6 - Arrays and Lists\bin\Debug\net6.0\Section 6 - Arrays and Lists.runtimeconfig.json
+C:\Users\Nahdaa\Documents\C# Beginner\Section 6 - Arrays and Lists\bin\Debug\net6.0\Section 6 - Arrays and Lists.dll
+C:\Users\Nahdaa\Documents\C# Beginner\Section 6 - Arrays and Lists\bin\Debug\net6.0\Section 6 - Arrays and Lists.pdb
+C:\Users\Nahdaa\Documents\C# Beginner\Section 6 - Arrays and Lists\obj\Debug\net6.0\Section 6 - Arrays and Lists.csproj.AssemblyReference.cache
+C:\Users\Nahdaa\Documents\C# Beginner\Section 6 - Arrays and Lists\obj\Debug\net6.0\Section 6 - Arrays and Lists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nahdaa\Documents\C# Beginner\Section 6 - Arrays and Lists\obj\Debug\net6.0\Section 6 - Arrays and Lists.AssemblyInfoInputs.cache
+C:\Users\Nahdaa\Documents\C# Beginner\Section 6 - Arrays and Lists\obj\Debug\net6.0\Section 6 - Arrays and Lists.AssemblyInfo.cs
+C:\Users\Nahdaa\Documents\C# Beginner\Section 6 - Arrays and Lists\obj\Debug\net6.0\Section 6 - Arrays and Lists.csproj.CoreCompileInputs.cache
+C:\Users\Nahdaa\Documents\C# Beginner\Section 6 - Arrays and Lists\obj\Debug\net6.0\Section 6 - Arrays and Lists.dll
+C:\Users\Nahdaa\Documents\C# Beginner\Section 6 - Arrays and Lists\obj\Debug\net6.0\refint\Section 6 - Arrays and Lists.dll
+C:\Users\Nahdaa\Documents\C# Beginner\Section 6 - Arrays and Lists\obj\Debug\net6.0\Section 6 - Arrays and Lists.pdb
+C:\Users\Nahdaa\Documents\C# Beginner\Section 6 - Arrays and Lists\obj\Debug\net6.0\Section 6 - Arrays and Lists.genruntimeconfig.cache
+C:\Users\Nahdaa\Documents\C# Beginner\Section 6 - Arrays and Lists\obj\Debug\net6.0\ref\Section 6 - Arrays and Lists.dll
