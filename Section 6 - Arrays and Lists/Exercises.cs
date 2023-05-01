@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Immutable;
+using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -60,19 +62,18 @@ namespace Section_6___Arrays_and_Lists
             // Use an array to reverse the nae and then store the result in a new string.
             // Display the reversed name on the console.
             /*
-            string userInput;
-
             Console.WriteLine("Please enter your name: ");
-            userInput = Console.ReadLine();
+            var userInput = Console.ReadLine().ToLower();
 
-            char[] userName = userInput.ToCharArray();
-            Array.Reverse(userName);
-
-            Console.WriteLine("Your name reversed is: ");
-            foreach (char c in userName)
+            var userName = userInput.ToList();
+            var reversedList = new List<char>();
+            var nameLength = userName.Count();
+            for (int i = nameLength-1; i >= 0; i--)
             {
-                Console.Write(c);
+                reversedList.Add(userName[i]);
             }
+            var reversedName = string.Join("",reversedList.ToArray());
+            Console.WriteLine("Your name reversed is " + reversedName);
             */
 
             //-----------------------------------------------------------------------------------------------------------------
