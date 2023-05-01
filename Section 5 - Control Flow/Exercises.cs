@@ -11,92 +11,6 @@ namespace Section_5___Control_Flow
     {
       static void Main(string[] args)            
         {
-            // Exercise 1.1
-            // Write a program and ask the user to enter a number.
-            // The nymber should be between 1 to 10.
-            // If the user enters a valid number, display "valid" on the console.
-            // Otherwise, display "Invalid".
-            /*
-            int userInput;
-            string strUserInput;
-
-            Console.WriteLine("Please enter a number between 1 and 10 inclusive: ");
-            strUserInput = Console.ReadLine();
-            userInput = Convert.ToInt32(strUserInput);
-
-            if (userInput<11 && userInput>0)
-            {
-                Console.WriteLine("Valid Input.");
-            }
-            else
-            {
-                Console.WriteLine("Invalid Input.");
-            }
-            */
-
-            //----------------------------------------------------------------------------------------------------------
-
-            // Exercise 1.2
-            // Write a program which takes two numbers from the console and displays the maximum of the two.
-            /*
-            string strUserInput1;
-            string strUserInput2;
-            int userInput1;
-            int userInput2;
-
-            Console.WriteLine("Please enter any number: ");
-            strUserInput1 = Console.ReadLine();
-            Console.WriteLine("Please enter another number: ");
-            strUserInput2 = Console.ReadLine(); 
-
-            userInput1 = Convert.ToInt32(strUserInput1);
-            userInput2 = Convert.ToInt32(strUserInput2);    
-
-            if(userInput1>userInput2)
-            {
-                Console.WriteLine("{0} was the greater number.", strUserInput1);
-            }
-            else if (userInput2>userInput1)
-            {
-                Console.WriteLine("{0} was the greater number.", strUserInput2);
-            }
-            else
-            {
-                Console.WriteLine("You entered {0} twice, so there is no greater number", strUserInput1);
-            }
-            */
-
-            //------------------------------------------------------------------------------------------------------
-
-            //Exercise 1.3
-            // Write a program and ask the user to enter the width and height of an image.
-            // Then tell if the image is landscape or portrait.
-            /*
-            int width;
-            int height;
-
-            Console.WriteLine("Please enter the width of the image:");
-            width = Convert.ToInt32(Console.ReadLine());    
-            
-            Console.WriteLine("Please enter the height of the image");
-            height = Convert.ToInt32(Console.ReadLine());
-
-
-            if (width > height)
-            {
-                Console.WriteLine("Your image is in Landscape.");
-            }
-            else if (height > width)
-            {
-                Console.WriteLine("Your image is in Portrait.");
-            }
-            else
-            {
-                Console.WriteLine("Your image is a square, it is neither landscape nor portrait.");
-            }
-            */
-
-            //--------------------------------------------------------------------------------------------------------
 
             // Exercise 1.4
             // Write a program that prompts the user to enter the speed limit.
@@ -287,6 +201,131 @@ namespace Section_5___Control_Flow
             }
             Console.WriteLine("The highest value of all the values you have entered was {0}.",maxElement);
             */
+
+            /*
+            // Exercise 1.1
+            // Write a program and ask the user to enter a number.
+            // The nymber should be between 1 to 10.
+            // If the user enters a valid number, display "valid" on the console.
+            // Otherwise, display "Invalid".
+
+            Console.WriteLine("Please enter a number between 1 and 10 inclusive: ");
+            var userInput = Convert.ToInt32(Console.ReadLine());
+            var isValid = NumberChecker(userInput);
+            Console.WriteLine(isValid);
+            */
+
+            //-------------------------------------------------------------------------------------------------
+
+            /*
+            // Exercise 1.2
+            // Write a program which takes two numbers from the console and displays the maximum of the two.
+
+            Console.WriteLine("Please enter a number: ");
+            var userInput1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter another number: ");
+            var userInput2 = Convert.ToInt32(Console.ReadLine());
+
+            var highestNum = DisplayMax(userInput1, userInput2);
+            Console.WriteLine("The highest of the two numbers you have given is " + highestNum);
+            */
+
+            //---------------------------------------------------------------------------------------------------
+
+            /*
+            // Exercise 1.3
+            // Write a program and ask the user to enter the width and height of an image.
+            // Then tell if the image is landscape or portrait.
+
+            Console.WriteLine("Please enter the width of your image: ");
+            var imageWidth = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter the height of your image: ");
+            var imageHeight = Convert.ToInt32(Console.ReadLine());
+
+            var imageOrientation = LandscapeOrPortrait(imageWidth, imageHeight);
+            Console.WriteLine("The orientation of your image is "+ imageOrientation);
+            */
+
+            //---------------------------------------------------------------------------------------------------
+
+            /*
+            // Exercise 1.4
+            // Write a program that prompts the user to enter the speed limit.
+            // Once set, the program asks for the speed of a car. 
+            // If the user enters a value less that the speed limit, program should display "ok".
+            // If the value is above the speed limit, the program should calculate the number of demerit points.
+            // For every 5km/hr above the speed limit, 1 demerit point is incurred and displayed.
+            // If demerit point exceeds 12, program should display license suspended.
+
+            Console.WriteLine("Please enter the speed limit: ");
+            var speedLimit = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter the speed of the car: ");
+            var carSpeed = Convert.ToInt32(Console.ReadLine());
+
+            var isSpeeding = CarSpeedChecker(speedLimit, carSpeed);
+
+            if (isSpeeding >= 0 && isSpeeding < 12)
+                Console.WriteLine("You have been issued {0} demerits", isSpeeding);
+            else if (isSpeeding > 12)
+                Console.WriteLine("Your license has been suspended.");
+            else
+                Console.WriteLine("Good speed.");
+            */
+
         }
+
+        public static string NumberChecker(int number)
+        {
+            if (number < 11 && number > 0)
+                return "Valid";
+
+            else
+                return "Invalid";
+        }
+
+        public static int DisplayMax(int number1, int number2)
+        {
+            int greaterNum;
+
+            if (number1 > number2)
+                greaterNum = number1;
+            else if (number2 > number1)
+                greaterNum = number2;
+            else
+                greaterNum = number1;
+
+            return greaterNum;
+        }
+
+        public static string LandscapeOrPortrait(int width, int height)
+        {
+            string orientation;
+
+            if (width > height)
+                orientation = "Landscape";
+            else if (height > width)
+                orientation = "Portrait";
+            else
+                orientation = "Neither";
+
+            return orientation;
+        }
+
+        public static int CarSpeedChecker(int limit, int speed)
+        {
+            int demerit;
+            if (speed > limit)
+            {
+                var speedDiff = speed - limit;
+                demerit = speedDiff / 5;
+
+                return demerit;
+            }
+            else
+            {
+                return -1;
+            }
+        }
+
     }
 }
