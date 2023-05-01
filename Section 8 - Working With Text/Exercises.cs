@@ -170,12 +170,13 @@ namespace Section_8___Working_With_Text
             // Write a program and ask the user to enter an English word.
             // Count the number of vowels (a,e,o,u,i) in the word.
             // Display it on the console
+            /*
             Console.WriteLine("Please enter a word: ");
-            var userInput = Console.ReadLine().ToLower();
+            var userInput = Console.ReadLine().ToLower(); // Coverting the entire string to lowercase.
 
-            var characters = userInput.ToList();
+            var characters = userInput.ToList(); // Splitting the string into a list of characters.
             int numVowels = 0;
-            foreach (var ch in characters)
+            foreach (var ch in characters) // Going through each character in the list, if it is a vowel, numVowels increases by 1.
             {
                 if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
                 {
@@ -183,7 +184,8 @@ namespace Section_8___Working_With_Text
                 }
             }
 
-            Console.WriteLine("Your word had {0} vowels.", numVowels);
+            Console.WriteLine("Your word had {0} vowels.", numVowels); // Displaying the value of numVowels.
+            */
         }
     }
 }
