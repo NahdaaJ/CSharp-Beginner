@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Section 8 - Working With Text/1.0.0": {
+        "runtime": {
+          "Section 8 - Working With Text.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Section 8 - Working With Text/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

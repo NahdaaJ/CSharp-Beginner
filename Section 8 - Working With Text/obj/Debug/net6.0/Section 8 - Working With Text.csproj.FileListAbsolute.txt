@@ -1,0 +1,15 @@
+C:\Users\Nahdaa\Documents\C# Beginner\Section 8 - Working With Text\bin\Debug\net6.0\Section 8 - Working With Text.exe
+C:\Users\Nahdaa\Documents\C# Beginner\Section 8 - Working With Text\bin\Debug\net6.0\Section 8 - Working With Text.deps.json
+C:\Users\Nahdaa\Documents\C# Beginner\Section 8 - Working With Text\bin\Debug\net6.0\Section 8 - Working With Text.runtimeconfig.json
+C:\Users\Nahdaa\Documents\C# Beginner\Section 8 - Working With Text\bin\Debug\net6.0\Section 8 - Working With Text.dll
+C:\Users\Nahdaa\Documents\C# Beginner\Section 8 - Working With Text\bin\Debug\net6.0\Section 8 - Working With Text.pdb
+C:\Users\Nahdaa\Documents\C# Beginner\Section 8 - Working With Text\obj\Debug\net6.0\Section 8 - Working With Text.csproj.AssemblyReference.cache
+C:\Users\Nahdaa\Documents\C# Beginner\Section 8 - Working With Text\obj\Debug\net6.0\Section 8 - Working With Text.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nahdaa\Documents\C# Beginner\Section 8 - Working With Text\obj\Debug\net6.0\Section 8 - Working With Text.AssemblyInfoInputs.cache
+C:\Users\Nahdaa\Documents\C# Beginner\Section 8 - Working With Text\obj\Debug\net6.0\Section 8 - Working With Text.AssemblyInfo.cs
+C:\Users\Nahdaa\Documents\C# Beginner\Section 8 - Working With Text\obj\Debug\net6.0\Section 8 - Working With Text.csproj.CoreCompileInputs.cache
+C:\Users\Nahdaa\Documents\C# Beginner\Section 8 - Working With Text\obj\Debug\net6.0\Section 8 - Working With Text.dll
+C:\Users\Nahdaa\Documents\C# Beginner\Section 8 - Working With Text\obj\Debug\net6.0\refint\Section 8 - Working With Text.dll
+C:\Users\Nahdaa\Documents\C# Beginner\Section 8 - Working With Text\obj\Debug\net6.0\Section 8 - Working With Text.pdb
+C:\Users\Nahdaa\Documents\C# Beginner\Section 8 - Working With Text\obj\Debug\net6.0\Section 8 - Working With Text.genruntimeconfig.cache
+C:\Users\Nahdaa\Documents\C# Beginner\Section 8 - Working With Text\obj\Debug\net6.0\ref\Section 8 - Working With Text.dll
