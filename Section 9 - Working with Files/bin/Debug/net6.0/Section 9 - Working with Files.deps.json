@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Section 9 - Working with Files/1.0.0": {
+        "runtime": {
+          "Section 9 - Working with Files.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Section 9 - Working with Files/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

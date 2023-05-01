@@ -1,0 +1,15 @@
+C:\Users\Nahdaa\Documents\C# Beginner\Section 9 - Working with Files\bin\Debug\net6.0\Section 9 - Working with Files.exe
+C:\Users\Nahdaa\Documents\C# Beginner\Section 9 - Working with Files\bin\Debug\net6.0\Section 9 - Working with Files.deps.json
+C:\Users\Nahdaa\Documents\C# Beginner\Section 9 - Working with Files\bin\Debug\net6.0\Section 9 - Working with Files.runtimeconfig.json
+C:\Users\Nahdaa\Documents\C# Beginner\Section 9 - Working with Files\bin\Debug\net6.0\Section 9 - Working with Files.dll
+C:\Users\Nahdaa\Documents\C# Beginner\Section 9 - Working with Files\bin\Debug\net6.0\Section 9 - Working with Files.pdb
+C:\Users\Nahdaa\Documents\C# Beginner\Section 9 - Working with Files\obj\Debug\net6.0\Section 9 - Working with Files.csproj.AssemblyReference.cache
+C:\Users\Nahdaa\Documents\C# Beginner\Section 9 - Working with Files\obj\Debug\net6.0\Section 9 - Working with Files.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nahdaa\Documents\C# Beginner\Section 9 - Working with Files\obj\Debug\net6.0\Section 9 - Working with Files.AssemblyInfoInputs.cache
+C:\Users\Nahdaa\Documents\C# Beginner\Section 9 - Working with Files\obj\Debug\net6.0\Section 9 - Working with Files.AssemblyInfo.cs
+C:\Users\Nahdaa\Documents\C# Beginner\Section 9 - Working with Files\obj\Debug\net6.0\Section 9 - Working with Files.csproj.CoreCompileInputs.cache
+C:\Users\Nahdaa\Documents\C# Beginner\Section 9 - Working with Files\obj\Debug\net6.0\Section 9 - Working with Files.dll
+C:\Users\Nahdaa\Documents\C# Beginner\Section 9 - Working with Files\obj\Debug\net6.0\refint\Section 9 - Working with Files.dll
+C:\Users\Nahdaa\Documents\C# Beginner\Section 9 - Working with Files\obj\Debug\net6.0\Section 9 - Working with Files.pdb
+C:\Users\Nahdaa\Documents\C# Beginner\Section 9 - Working with Files\obj\Debug\net6.0\Section 9 - Working with Files.genruntimeconfig.cache
+C:\Users\Nahdaa\Documents\C# Beginner\Section 9 - Working with Files\obj\Debug\net6.0\ref\Section 9 - Working with Files.dll
