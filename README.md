@@ -1,5 +1,5 @@
 # CSharp-Beginner
-A repo containing all my work from the C# beginner course I am doing. Please use the button with the three lines in the top left to navigate through the different sections! :)
+A repo containing all my work from the C# beginner course I am doing. Please use the button with the three lines in the top left to navigate through the different sections! :) To test or run my code for each exercise, please remove the /* */ tags at the beginning and end of the code!
 
 ## Section 5: Control Flow 
 ### Exercise 1.1
@@ -51,6 +51,22 @@ Write a program and ask the user to continuously enter a number or type "Quit" t
 
 ### Exercise 5
 Write a program and ask the user to supply a list of comma separated numbers (e.g 5, 1, 9, 2, 10). If the list is empty or includes less than 5 numbers, display "Invalid List" and ask the user to re-try; otherwise, display the 3 smallest numbers in the list.
+
+## Section 8: Working with Text
+### Exercise 1
+Write a program and ask the user to enter a few numbers separated by a hyphen. Work out if the numbers are consecutive. For example, if the input is "5-6-7-8-9" or "20-19-18-17-16", display a message: "Consecutive"; otherwise, display "Not Consecutive".
+
+### Exercise 2
+Write a program and ask the user to enter a few numbers separated by a hyphen. If the user simply presses Enter, without supplying an input, exit immediately; otherwise, check to see if there are duplicates. If so, display "Duplicate" on the console.
+
+### Exercise 3
+Write a program and ask the user to enter a time value in the 24-hour time format (e.g. 19:00). A valid time should be between 00:00 and 23:59. If the time is valid, display "Ok"; otherwise, display "Invalid Time". If the user doesn't provide any values, consider it as invalid time.
+
+### Exercise 4
+Write a program and ask the user to enter a few words separated by a space. Use the words to create a variable name with PascalCase. For example, if the user types: "number of students", display "NumberOfStudents". Make sure that the program is not dependent on the input. So, if the user types "NUMBER OF STUDENTS", the program should still display "NumberOfStudents".
+
+### Exercise 5
+Write a program and ask the user to enter an English word. Count the number of vowels (a, e, o, u, i) in the word. So, if the user enters "inadequate", the program should display 6 on the console.
 
 ## Credits
 The course I have been doing is the [C# Basics for Beginners: Learn C# Fundamentals by Coding](https://www.udemy.com/course/csharp-tutorial-for-beginners/) by Mosh Hamedani.
